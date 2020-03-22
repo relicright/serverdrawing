@@ -1,21 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-03-22T04:06:27.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="Ci09xYl9uP7g5_q0zaTY" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-22T04:07:27.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="o9T7EesBIQWX96OpLBcJ" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
-    <mxGraphModel dx="1973" dy="1337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Krg5OAJmCBE884iFsZVr-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" vertex="1" parent="1">
           <mxGeometry x="870" y="411" width="370" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-1" target="Krg5OAJmCBE884iFsZVr-33">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1225" y="705" />
-              <mxPoint x="1225" y="840" />
-              <mxPoint x="800" y="840" />
-              <mxPoint x="800" y="695" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Krg5OAJmCBE884iFsZVr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-1" target="Krg5OAJmCBE884iFsZVr-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member STRUCT" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1310" y="590" width="170" height="230" as="geometry" />
@@ -71,13 +64,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;ADD MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func AddMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--adds a member into the member database bolt bucket generated using their email address with crypto.GetUserSecurityCode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
-          <mxGeometry x="230" y="130" width="410" height="120" as="geometry" />
+          <mxGeometry x="230" y="150" width="410" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-21" target="Krg5OAJmCBE884iFsZVr-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-21" value="&lt;div&gt;REMOVE MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func RemoveMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Removes a member into the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="264" width="410" height="96" as="geometry" />
+          <mxGeometry x="230" y="284" width="410" height="96" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#D46A00;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-22" target="Krg5OAJmCBE884iFsZVr-33">
           <mxGeometry relative="1" as="geometry">
@@ -88,7 +81,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-22" value="&lt;div&gt;POLL ALL MEMBERS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembers ( ) (error) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves all members from the members database&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="230" y="620" width="410" height="100" as="geometry" />
+          <mxGeometry x="230" y="640" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#D46A00;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-23" target="Krg5OAJmCBE884iFsZVr-26">
           <mxGeometry relative="1" as="geometry">
@@ -99,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-23" value="&lt;div&gt;POLL MEMBERS BY ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByID ( id string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their Member ID generated using their email address with crypto.GetUserSecurityCode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="230" y="380" width="410" height="115" as="geometry" />
+          <mxGeometry x="230" y="400" width="410" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#D46A00;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-24" target="Krg5OAJmCBE884iFsZVr-26">
           <mxGeometry relative="1" as="geometry">
@@ -111,18 +104,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-24" value="&lt;div&gt;POLL MEMBERS BY EMAIL&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByEmail ( email string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their email address&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="230" y="516" width="410" height="88" as="geometry" />
+          <mxGeometry x="230" y="536" width="410" height="88" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-25" target="Krg5OAJmCBE884iFsZVr-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="770" />
-              <mxPoint x="690" y="672" />
+              <mxPoint x="690" y="790" />
+              <mxPoint x="690" y="673" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" vertex="1" parent="1">
-          <mxGeometry x="230" y="740" width="410" height="119" as="geometry" />
+          <mxGeometry x="230" y="760" width="410" height="119" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#F2F24E;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-26" target="Krg5OAJmCBE884iFsZVr-14">
           <mxGeometry relative="1" as="geometry">
