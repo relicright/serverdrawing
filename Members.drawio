@@ -1,32 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2020-03-22T03:04:13.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="Kx4F8nufyNV_OWzrf5yh" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-22T03:09:12.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="jbpQthWNnRTx-DiUGLrJ" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="983" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Krg5OAJmCBE884iFsZVr-1" value="Member" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="150" height="230" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member STRUCT" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="25" width="170" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-2" value="Password" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="40" y="165" width="150" height="30" as="geometry" />
+          <mxGeometry x="30" y="123" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-3" value="IsActivated" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="40" y="225" width="150" height="30" as="geometry" />
+          <mxGeometry x="30" y="183" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-4" value="MemberRole" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="40" y="195" width="150" height="30" as="geometry" />
+          <mxGeometry x="30" y="153" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-5" value="JoinDate" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="40" y="255" width="150" height="30" as="geometry" />
+          <mxGeometry x="30" y="213" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-6" value="Email Address" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="40" y="105" width="150" height="30" as="geometry" />
+          <mxGeometry x="30" y="63" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-7" value="Username" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="40" y="135" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;-AddMember-&lt;/div&gt;&lt;div&gt;adds a member into the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="340" y="20" width="150" height="60" as="geometry" />
+          <mxGeometry x="30" y="93" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-9" value="Security" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="660" y="80" width="150" height="230" as="geometry" />
@@ -49,14 +46,20 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-15" value="Username" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="660" y="135" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Krg5OAJmCBE884iFsZVr-19" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member METHODS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="135" width="170" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;-AddMember-&lt;/div&gt;&lt;div&gt;adds a member into the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="320" y="165" width="150" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-16" value="&lt;div&gt;-PollMemberByID-&lt;/div&gt;&lt;div&gt;finds a user using their ID&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="340" y="190" width="150" height="40" as="geometry" />
+          <mxGeometry x="320" y="293" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-17" value="&lt;div&gt;-PollMemberByEmail-&lt;/div&gt;&lt;div&gt;finds a user using their Email&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="340" y="255" width="150" height="45" as="geometry" />
+          <mxGeometry x="320" y="337" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-18" value="&lt;div&gt;-RemoveMember-&lt;/div&gt;&lt;div&gt;removes a member from the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="340" y="100" width="150" height="60" as="geometry" />
+          <mxGeometry x="320" y="229" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
