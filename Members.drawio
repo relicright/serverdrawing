@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-22T03:58:13.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="y10B-K2P0REIC2JLQf9e" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-22T04:00:00.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="p1uF_fVESsvNlL9S9J3w" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="1625" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,16 +70,16 @@
           <mxGeometry x="230" y="264" width="410" height="96" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-22" value="&lt;div&gt;POLL ALL MEMBERS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembers ( ) (error) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves all members from the members database&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="230" y="370" width="410" height="100" as="geometry" />
+          <mxGeometry x="230" y="380" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-23" value="&lt;div&gt;POLL MEMBERS BY ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByID ( id string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their Member ID generated using their email address with crypto.GetUserSecurityCode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="230" y="475" width="410" height="115" as="geometry" />
+          <mxGeometry x="230" y="505" width="410" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-24" value="&lt;div&gt;POLL MEMBERS BY EMAIL&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByEmail ( email string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their email address&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="230" y="601" width="410" height="88" as="geometry" />
+          <mxGeometry x="230" y="641" width="410" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;" vertex="1" parent="1">
-          <mxGeometry x="230" y="699" width="410" height="110" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" vertex="1" parent="1">
+          <mxGeometry x="230" y="749" width="410" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#F2F24E;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-26" target="Krg5OAJmCBE884iFsZVr-14">
           <mxGeometry relative="1" as="geometry">
