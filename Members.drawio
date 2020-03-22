@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-22T03:44:19.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="WkmVFk6wgfmjF6nQ6YmW" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-22T03:47:18.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="td8NOpgKmlImYCbrOA1C" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
-    <mxGraphModel dx="1156" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           <mxGeometry x="1275" y="155" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-19" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member Database/Bolt Buckets METHODS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="220" y="135" width="430" height="615" as="geometry" />
+          <mxGeometry x="220" y="100" width="430" height="650" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#0FCF1E;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-8" target="Krg5OAJmCBE884iFsZVr-26">
           <mxGeometry relative="1" as="geometry">
@@ -53,8 +53,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;ADD MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func AddMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--adds a member into the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
-          <mxGeometry x="230" y="160" width="410" height="80" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;ADD MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func AddMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--adds a member into the member database bolt bucket generated using their email address with crypto.GetUserSecurityCode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="410" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-21" target="Krg5OAJmCBE884iFsZVr-26">
           <mxGeometry relative="1" as="geometry">
@@ -91,6 +91,9 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#0FCF1E;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-26" target="Krg5OAJmCBE884iFsZVr-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Krg5OAJmCBE884iFsZVr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0FCF1E;strokeWidth=3;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-26" target="Krg5OAJmCBE884iFsZVr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-26" value="Get the security code to check if the member exists or to use as the key for the value of the member added to the bucket" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="930" y="155" width="170" height="90" as="geometry" />
         </mxCell>
@@ -99,6 +102,9 @@
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-33" value="MEMBER DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="1010" y="500" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Krg5OAJmCBE884iFsZVr-35" value="&lt;div&gt;If member doesn&#39;t exist add the member to the bolt DB bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#00331A;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="280" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
