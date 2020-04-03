@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-22T23:30:39.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="d0Xpr0ncP-m2J7H73ZKE" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-03T00:52:15.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="M2P2cYXYgZaE-3UcjLm9" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
-    <mxGraphModel dx="1625" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="964" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="590" y="135" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-19" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;CRYPTOGRAPHY FUNCTIONS&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=center;verticalAlign=top;fontStyle=1;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="430" height="930" as="geometry" />
+          <mxGeometry x="40" y="40" width="430" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-22" value="&lt;div&gt;CREATE A PASSWORD SECURITY CODE&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreatePasswordSecurityCode( pw string ) ( string, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;--Creates a security code for a password&#39;s cryptography using their input&amp;nbsp; " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="352.5" width="410" height="100" as="geometry" />
@@ -26,22 +26,25 @@
           <mxGeometry x="50" y="210" width="410" height="124" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;VERIFY PASSWORD REQUIREMENTS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func VerifyPasswordRequirements( pw string&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if all conditions set for the password requirements are met before allowing the password to be set: &lt;br&gt;&lt;/div&gt;&lt;div&gt;PW length:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 8 Characters &lt;br&gt;&lt;/div&gt;&lt;div&gt;Special Chars Allowed:&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;!&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;@&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;#&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;$&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;%&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;^&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;&amp;amp;&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;*&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;(&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;)&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;~&#39;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="50" y="700" width="410" height="246.5" as="geometry" />
+          <mxGeometry x="50" y="839" width="410" height="246.5" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-61" value="&lt;div&gt;CREATE A BANK SECURITY CODE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateBankSecurityCode( bankID string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;--Creates a security code for user cryptography using their email address " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="468" width="410" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="pIQq6SDH289IwsexYELB-1" value="MESSAGES" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" vertex="1" parent="1">
+        <mxCell id="pIQq6SDH289IwsexYELB-1" value="MESSAGES" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" parent="1" vertex="1">
           <mxGeometry x="590" y="165" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIQq6SDH289IwsexYELB-2" value="BANKS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" vertex="1" parent="1">
+        <mxCell id="pIQq6SDH289IwsexYELB-2" value="BANKS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" parent="1" vertex="1">
           <mxGeometry x="590" y="195" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIQq6SDH289IwsexYELB-3" value="WEBPAGE CONTROLLERS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" vertex="1" parent="1">
+        <mxCell id="pIQq6SDH289IwsexYELB-3" value="WEBPAGE CONTROLLERS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" parent="1" vertex="1">
           <mxGeometry x="590" y="225" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIQq6SDH289IwsexYELB-4" value="&lt;div&gt;CREATE A PAGE SECURITY CODE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreatePageSecurityCode( page string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;--Creates a security code for user cryptography using their email address " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="pIQq6SDH289IwsexYELB-4" value="&lt;div&gt;CREATE A PAGE SECURITY CODE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreatePageSecurityCode( page string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;--Creates a security code for user cryptography using their email address " style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="585" width="410" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAMlKJIgo_dSWv7IY5d-1" value="&lt;div&gt;VERYIFY PASSWORD SECURITY CODE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func VerifyPasswordSecurityCode( msg, msgMAC, key [ ]byte ) bool { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;--Verify the HMAC code to verify credentials" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="410" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
