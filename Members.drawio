@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T17:26:37.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="tCky2of7lk6kXjbYqbc_" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-03T17:27:31.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="u5CLmzk_I5xwK2iosvzP" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="2051" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,14 +34,14 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-7" value="Username" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
           <mxGeometry x="1320" y="658" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-9" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Security" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="Krg5OAJmCBE884iFsZVr-9" value="CRYPTO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1275" y="100" width="150" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
           <mxGeometry x="1275" y="245" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="215" width="150" height="30" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-12" value="VerifyPasswordReq" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="185" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
           <mxGeometry x="1275" y="275" width="150" height="30" as="geometry" />
@@ -57,7 +57,7 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-14" value="GetUserIDSecurityCode" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
           <mxGeometry x="1275" y="125" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-15" value="VerifyPasswordReq" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
+        <mxCell id="Krg5OAJmCBE884iFsZVr-15" value="VerifyPasswordCode" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
           <mxGeometry x="1275" y="155" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-19" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member Database/Bolt Buckets METHODS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" parent="1" vertex="1">
