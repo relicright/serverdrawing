@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T16:13:36.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="vwgTJeA6bZOvzit52iM8" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-03T16:14:01.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="NttH6vk6Bni6NAsILPvN" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="1201" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,13 +118,13 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-25" target="Krg5OAJmCBE884iFsZVr-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="870" y="960" />
-              <mxPoint x="870" y="672" />
+              <mxPoint x="870" y="780" />
+              <mxPoint x="870" y="673" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" parent="1" vertex="1">
-          <mxGeometry x="210" y="870" width="430" height="119" as="geometry" />
+          <mxGeometry x="210" y="750" width="430" height="119" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#F2F24E;" parent="1" source="Krg5OAJmCBE884iFsZVr-26" target="Krg5OAJmCBE884iFsZVr-14" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -171,14 +171,11 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-44" value="Return the error and have the receiver handle it" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#3B0808;" parent="1" vertex="1">
           <mxGeometry x="890" y="330" width="170" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-61" value="&lt;div&gt;??????&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func ?????( ) (???) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--????&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="210" y="760" width="430" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="cZtBj0m-440TL1Us-F3j-1" value="&lt;div&gt;RESET PASSWORD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func ResetUserPassword( memID, curPas, curPasKey, newPass ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--We need to verify if they clicked a link with a security code in their email to make sure its them.&amp;nbsp; In the future we want to do SMS messaging for verification.&amp;nbsp; Add a security token on the email that is attached to the users account to verify authenticity.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1220" width="430" height="205" as="geometry" />
+          <mxGeometry x="210" y="1110" width="430" height="205" as="geometry" />
         </mxCell>
         <mxCell id="cZtBj0m-440TL1Us-F3j-2" value="&lt;div&gt;SETUP TWO FACTOR VERIFICATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func SetupTFV( memID, email, phone, newPass ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--We need to verify if they clicked a link with a security code in their email to make sure its them.&amp;nbsp; In the future we want to do SMS messaging for verification.&amp;nbsp; Add a security token on the email that is attached to the users account to verify authenticity.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1000" width="430" height="205" as="geometry" />
+          <mxGeometry x="210" y="890" width="430" height="205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
