@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T05:05:12.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="UKquddx5ru8al5i7HKQB" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-03T05:06:10.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="GmWBaGtysLyvSZFAEqK-" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="1201" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Krg5OAJmCBE884iFsZVr-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Systems that use CRYPTO&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=center;verticalAlign=top;fillColor=#000033;" parent="1" vertex="1">
-          <mxGeometry x="590" y="60" width="230" height="220" as="geometry" />
+          <mxGeometry x="590" y="60" width="230" height="270" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-14" value="SESSIONS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" parent="1" vertex="1">
           <mxGeometry x="590" y="105" width="230" height="30" as="geometry" />
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="BEAMlKJIgo_dSWv7IY5d-3" value="&lt;h1&gt;EX:&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Password Storage:&lt;/div&gt;&lt;div&gt;Row:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; mac,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; key&lt;/div&gt;&lt;div&gt;ex:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; hashedPW,&amp;nbsp;&amp;nbsp;&amp;nbsp; Session&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt;&amp;nbsp;&amp;nbsp; q24%412Da,&amp;nbsp; K43a#!d.32&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Session Storage:&lt;/div&gt;&lt;div&gt;Row: session, userid, timeCreated&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="720" width="210" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAMlKJIgo_dSWv7IY5d-4" value="TOKENS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="255" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
