@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T00:54:53.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="C-8Rv_prp9rcbaIrMqjh" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-03T04:00:30.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="lBkolf4Tc8pB5zRqamRj" version="12.8.8" type="github">
   <diagram id="OwN22ceddt_HI1kbPNsA" name="Page-1">
-    <mxGraphModel dx="964" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1201" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,26 +13,14 @@
         <mxCell id="RebIltJZuqrViOZ0RSFz-10" value="&lt;div&gt;REMOVE SESSION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func RemoveSessionFromDb ( ses Session) ( error ){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Removes a member into the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#330000;" parent="1" vertex="1">
           <mxGeometry x="30" y="204" width="410" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="RebIltJZuqrViOZ0RSFz-11" value="&lt;div&gt;POLL ALL MEMBERS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembers ( ) (error) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves all members from the members database&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="30" y="680" width="410" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="RebIltJZuqrViOZ0RSFz-12" value="&lt;div&gt;POLL MEMBERS BY ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByID ( id string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their Member ID generated using their email address with crypto.GetUserSecurityCode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="30" y="460" width="410" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="RebIltJZuqrViOZ0RSFz-13" value="&lt;div&gt;POLL MEMBERS BY EMAIL&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByEmail ( email string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their email address&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="30" y="586" width="410" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="RebIltJZuqrViOZ0RSFz-14" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" parent="1" vertex="1">
+        <mxCell id="RebIltJZuqrViOZ0RSFz-14" value="&lt;div&gt;CREATE SESSION DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" parent="1" vertex="1">
           <mxGeometry x="30" y="920" width="410" height="119" as="geometry" />
-        </mxCell>
-        <mxCell id="RebIltJZuqrViOZ0RSFz-15" value="&lt;div&gt;??????&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func ?????( ) (???) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--????&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="30" y="790" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RebIltJZuqrViOZ0RSFz-16" value="SESSION DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;strokeColor=#FFFFFF;fillColor=#663300;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="970" y="650" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6ThwEPi3yd1xH4KHOWwl-1" value="&lt;div&gt;POLL MEMBER BY SESSION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersBySession ( id string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their Member ID generated using their email address with crypto.GetUserSecurityCode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" vertex="1" parent="1">
-          <mxGeometry x="30" y="333" width="410" height="115" as="geometry" />
+          <mxGeometry x="30" y="310" width="410" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
