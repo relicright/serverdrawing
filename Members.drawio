@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T17:27:31.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="u5CLmzk_I5xwK2iosvzP" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-03T17:34:10.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="Ssbnlerkx75Eib4TcnYf" version="12.8.8" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
-    <mxGraphModel dx="2051" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1201" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,29 +10,10 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" parent="1" vertex="1">
           <mxGeometry x="870" y="411" width="370" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-1" target="Krg5OAJmCBE884iFsZVr-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-1" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member STRUCT" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="590" width="170" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-2" value="Password" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="688" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-3" value="IsActivated" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="748" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-4" value="MemberRole" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="718" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-5" value="JoinDate" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="778" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-6" value="Email Address" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="628" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-7" value="Username" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="658" width="150" height="30" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=6;" parent="1" target="Krg5OAJmCBE884iFsZVr-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="705" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-9" value="CRYPTO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1275" y="100" width="150" height="230" as="geometry" />
@@ -162,8 +143,10 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-33" value="MEMBER DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;strokeColor=#FFFFFF;fillColor=#663300;" parent="1" vertex="1">
           <mxGeometry x="970" y="650" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-35" target="Krg5OAJmCBE884iFsZVr-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-35" value="&lt;div&gt;If member exist access the member to the bolt DB bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#00331A;" parent="1" vertex="1">
           <mxGeometry x="1070" y="440" width="140" height="50" as="geometry" />
@@ -178,7 +161,7 @@
           <mxGeometry x="210" y="890" width="430" height="205" as="geometry" />
         </mxCell>
         <mxCell id="cZtBj0m-440TL1Us-F3j-3" value="&lt;div&gt;MEMBER STRUCT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;type &lt;/span&gt;Member &lt;span style=&quot;color: #c7773e&quot;&gt;struct &lt;/span&gt;{&lt;br&gt;   Email         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;UserName      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Password      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;PwKey         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Role          &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Activation    &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;JoinDate      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVPhone      &lt;span style=&quot;color: #c7773e&quot;&gt;int&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVGoogle     &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVDevices    []&lt;span style=&quot;color: #c7773e&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;// 0 - Phone; 1 - Email; 2 - Google Verification&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;SecurityToken &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="180" width="530" height="280" as="geometry" />
+          <mxGeometry x="1310" y="589" width="530" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
