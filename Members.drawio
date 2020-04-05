@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-05T19:24:00.908Z" agent="5.0 (Windows)" etag="Hsb678bMtEsWE3Fsk9Sh" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T19:26:40.802Z" agent="5.0 (Windows)" etag="1OMvTEb7HqMuHDJmXobN" version="12.9.6" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="2872" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry x="1490" y="289" width="170" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-33" value="MEMBER DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;strokeColor=#FFFFFF;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="2410" y="965" width="530" height="135" as="geometry" />
+          <mxGeometry x="2460" y="954" width="530" height="656" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-35" target="eRZaWDwXWMxtU1EoFf1U-10">
           <mxGeometry relative="1" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="-580" y="1910" width="510" height="205" as="geometry" />
         </mxCell>
         <mxCell id="cZtBj0m-440TL1Us-F3j-3" value="&lt;div&gt;MEMBER STRUCT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;type &lt;/span&gt;Member &lt;span style=&quot;color: #c7773e&quot;&gt;struct &lt;/span&gt;{&lt;br&gt;   Email         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;UserName      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Password      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;PwKey         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Role          &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Activation    &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;JoinDate      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVPhone      &lt;span style=&quot;color: #c7773e&quot;&gt;int&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVGoogle     &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVDevices    []&lt;span style=&quot;color: #c7773e&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;// 0 - Phone; 1 - Email; 2 - Google Verification&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;SecurityToken &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" parent="1" vertex="1">
-          <mxGeometry x="2410" y="631" width="560" height="280" as="geometry" />
+          <mxGeometry x="2460" y="620" width="560" height="280" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-1" value="CRYPTO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="920" y="-440" width="150" height="230" as="geometry" />
@@ -126,7 +126,7 @@
           <mxGeometry x="120" y="1310" width="510" height="630" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-12" value="&lt;div align=&quot;left&quot;&gt;CREATE NEW MEMBER &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Creates a new member struct to use for adding to the member database or for creating temp user struct.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;func &lt;/span&gt;&lt;span style=&quot;color: #e6b163&quot;&gt;CreateNewMember &lt;/span&gt;(email&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;username&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;password&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;pwkey&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;role&lt;span style=&quot;color: #cc7832&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;                  &lt;/span&gt;joindate&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;secToken&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;activation &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;/span&gt;) (m &lt;span style=&quot;color: #6fafbd&quot;&gt;Member&lt;/span&gt;) {&lt;br&gt;   m.Email = email&lt;br&gt;   m.UserName = username&lt;br&gt;   m.Password = password&lt;br&gt;   m.PwKey = pwkey&lt;br&gt;   m.Role = role&lt;br&gt;   m.JoinDate = joindate&lt;br&gt;   m.SecurityToken = secToken&lt;br&gt;   m.Activation = activation&lt;br&gt;   &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;m&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=13;fillColor=#1A3300;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="300" width="555" height="300" as="geometry" />
+          <mxGeometry x="2460" y="289" width="555" height="300" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-15">
           <mxGeometry relative="1" as="geometry">
@@ -207,11 +207,56 @@
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-35" value="Success Return Error nil" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003300;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2110" y="1110" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eRZaWDwXWMxtU1EoFf1U-36" value="Error return the error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-36" value="Error return the error and log in the system" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1990" y="540" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eRZaWDwXWMxtU1EoFf1U-39" value="Error return the error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-39" value="Error return the error and log in the system" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1860" y="1110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-47" value="Get the security code to check if the member exists.&amp;nbsp; If they don&#39;t exist then function should exit with &#39;No Member Found Error&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1415" width="225" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-48" value="CRYPTO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1420" width="150" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1565" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-50" value="VerifyPasswordReq" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1505" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1595" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-53" value="GetUserIDSecurityCode" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1445" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-54" value="VerifyPasswordCode" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1475" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-55" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1420" width="370" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=3;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-57" target="eRZaWDwXWMxtU1EoFf1U-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-57" value="If the user doesntexists return the error &quot;Member doesnt exists&quot; instead of removing the member" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#3B0808;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1524" width="170" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-58" value="&lt;div&gt;If member doesn&#39;t exist access the member to the bolt DB bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#00331A;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1524" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-59" value="Return the error and have the receiver handle it" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#3B0808;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1439" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-60" value="Edit the member in the &#39;memberDatabase&#39; " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003300;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2047.5" y="1429.5" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-61" value="Success Return Error nil" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003300;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1570.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-62" value="Error return the error and log in the system" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="1570.5" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
