@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-05T19:27:41.312Z" agent="5.0 (Windows)" etag="774qoafK6RfuiPqk_Ku5" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T19:28:09.621Z" agent="5.0 (Windows)" etag="Dul-sZhFbne47V1I83yD" version="12.9.6" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="2872" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
           <mxGeometry x="1490" y="204" width="170" height="55" as="geometry" />
         </mxCell>
         <mxCell id="cZtBj0m-440TL1Us-F3j-1" value="&lt;div&gt;RESET PASSWORD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func ResetUserPassword( memID, curPas, curPasKey, newPass ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--We need to verify if they clicked a link with a security code in their email to make sure its them.&amp;nbsp; In the future we want to do SMS messaging for verification.&amp;nbsp; Add a security token on the email that is attached to the users account to verify authenticity.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="2150" width="510" height="205" as="geometry" />
+          <mxGeometry x="-580" y="2145" width="510" height="205" as="geometry" />
         </mxCell>
         <mxCell id="cZtBj0m-440TL1Us-F3j-2" value="&lt;div&gt;SETUP TWO FACTOR VERIFICATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func SetupTFV( memID, email, phone, googleVer ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Setup two factor verification on the methods included in the function input to secure accounts further for the user.&amp;nbsp; Enable support for phone numbers, emails and google verification.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-580" y="1910" width="510" height="205" as="geometry" />
