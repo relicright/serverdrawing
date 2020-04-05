@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-04-05T19:28:09.621Z" agent="5.0 (Windows)" etag="Dul-sZhFbne47V1I83yD" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T19:29:17.265Z" agent="5.0 (Windows)" etag="jI0mX7nE1MAbC2vyHXNo" version="12.9.6" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="2872" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Krg5OAJmCBE884iFsZVr-60" value="SERVER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;fillColor=#1A1A1A;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+        <mxCell id="Krg5OAJmCBE884iFsZVr-60" value="SERVER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;fillColor=#1A1A1A;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="3000" height="2330" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" parent="1" vertex="1">
@@ -122,6 +122,11 @@
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-10" value="Create a new Member struct with the new members information for passing into the &#39;member Database&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="1950" y="205" width="225" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-11" value="&lt;div&gt;EDIT MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func EditMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Edit the members profile changing the information to the input of the Member struct passed in to the function.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;func &lt;/span&gt;&lt;span style=&quot;color: #e6b163&quot;&gt;EditMember&lt;/span&gt;(mem &lt;span style=&quot;color: #6fafbd&quot;&gt;Member&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;   sec := &lt;span style=&quot;color: #afbf7e&quot;&gt;crypto&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;CreateSecurityCode&lt;/span&gt;(mem.Email&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;[]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(mem.PwKey))&lt;br&gt;&lt;br&gt;   &lt;span style=&quot;color: #787878&quot;&gt;// Check if member exists&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;_&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;exists := &lt;span style=&quot;color: #b09d79&quot;&gt;PollMemberId&lt;/span&gt;(sec)&lt;br&gt;   &lt;span style=&quot;color: #c7773e&quot;&gt;if !&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;&lt;/span&gt;exists {&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;errors&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;New&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Member doesn&#39;t exists&quot;&lt;/span&gt;)&lt;br&gt;   }&lt;br&gt;&lt;br&gt;   &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;security&lt;/span&gt;.MemDb.&lt;span style=&quot;color: #b09d79&quot;&gt;Update&lt;/span&gt;(&lt;span style=&quot;color: #c7773e&quot;&gt;func&lt;/span&gt;(tx *&lt;span style=&quot;color: #afbf7e&quot;&gt;bolt&lt;/span&gt;.&lt;span style=&quot;color: #6fafbd&quot;&gt;Tx&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;      &lt;span style=&quot;color: #787878&quot;&gt;// Check if the bucket exists&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;b := tx.&lt;span style=&quot;color: #b09d79&quot;&gt;Bucket&lt;/span&gt;([]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;members&quot;&lt;/span&gt;))&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;b == &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;errors&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;New&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Bucket not found: Members&quot;&lt;/span&gt;)&lt;br&gt;      }&lt;br&gt;      &lt;span style=&quot;color: #787878&quot;&gt;// Marshal the user into a []byte&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;buff&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;err := &lt;span style=&quot;color: #afbf7e&quot;&gt;json&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;Marshal&lt;/span&gt;(mem)&lt;span style=&quot;color: #cc7832&quot;&gt;; &lt;/span&gt;err != &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;err&lt;br&gt;      } &lt;span style=&quot;color: #c7773e&quot;&gt;else &lt;/span&gt;{&lt;br&gt;         err1 := b.&lt;span style=&quot;color: #b09d79&quot;&gt;Put&lt;/span&gt;([]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(sec)&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;buff)&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;err1 != &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;            &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;err1&lt;br&gt;         } &lt;span style=&quot;color: #c7773e&quot;&gt;else &lt;/span&gt;{&lt;br&gt;            &lt;span style=&quot;color: #afbf7e&quot;&gt;fmt&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;Printf&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Added: sec: &lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;%s\n&lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;sec)&lt;br&gt;            &lt;span style=&quot;color: #c7773e&quot;&gt;return nil&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;         &lt;/span&gt;}&lt;br&gt;      }&lt;br&gt;   })&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
           <mxGeometry x="120" y="1310" width="510" height="630" as="geometry" />
         </mxCell>
@@ -213,6 +218,11 @@
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-39" value="Error return the error and log in the system" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1860" y="1110" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-47" value="Get the security code to check if the member exists.&amp;nbsp; If they don&#39;t exist then function should exit with &#39;No Member Found Error&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="830" y="1415" width="225" height="150" as="geometry" />
         </mxCell>
@@ -228,11 +238,25 @@
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1595" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="1530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="1460" />
+              <mxPoint x="1430" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-53" value="GetUserIDSecurityCode" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1445" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-54" value="VerifyPasswordCode" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1475" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="1468.4705882352941" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-55" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" vertex="1" parent="1">
           <mxGeometry x="1510" y="1420" width="370" height="195" as="geometry" />
@@ -248,6 +272,16 @@
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-59" value="Return the error and have the receiver handle it" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#3B0808;" vertex="1" parent="1">
           <mxGeometry x="1530" y="1439" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="1550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-60" value="Edit the member in the &#39;memberDatabase&#39; " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003300;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2047.5" y="1429.5" width="225" height="80" as="geometry" />
