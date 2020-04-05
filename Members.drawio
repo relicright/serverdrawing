@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-04-05T19:44:51.149Z" agent="5.0 (Windows)" etag="pkZzOrpoQWRVdaqA2uHb" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T19:48:21.845Z" agent="5.0 (Windows)" etag="988RPe8Wug8Jsq5Dj5ED" version="12.9.6" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
     <mxGraphModel dx="2872" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Krg5OAJmCBE884iFsZVr-60" value="SERVER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;fillColor=#1A1A1A;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+        <mxCell id="Krg5OAJmCBE884iFsZVr-60" value="SERVER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;fillColor=#1A1A1A;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="2400" height="2330" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" parent="1" vertex="1">
@@ -46,6 +46,11 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-21" value="&lt;div&gt;REMOVE MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func RemoveMember (eMail string) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Removes a member into the member database bolt bucket using member&#39;s email&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;func &lt;/span&gt;&lt;span style=&quot;color: #e6b163&quot;&gt;RemoveMember&lt;/span&gt;(mEmail &lt;span style=&quot;color: #6fafbd&quot;&gt;string&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;   &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;security&lt;/span&gt;.MemDb.&lt;span style=&quot;color: #b09d79&quot;&gt;Update&lt;/span&gt;(&lt;span style=&quot;color: #c7773e&quot;&gt;func&lt;/span&gt;(tx *&lt;span style=&quot;color: #afbf7e&quot;&gt;bolt&lt;/span&gt;.&lt;span style=&quot;color: #6fafbd&quot;&gt;Tx&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;      &lt;span style=&quot;color: #787878&quot;&gt;// Check if the bucket exists&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;b := tx.&lt;span style=&quot;color: #b09d79&quot;&gt;Bucket&lt;/span&gt;([]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;members&quot;&lt;/span&gt;))&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;b == &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;errors&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;New&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Bucket not found: Members&quot;&lt;/span&gt;)&lt;br&gt;      }&lt;br&gt;      c := b.&lt;span style=&quot;color: #b09d79&quot;&gt;Cursor&lt;/span&gt;()&lt;br&gt;      &lt;span style=&quot;color: #787878&quot;&gt;// Get SecCode for member&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;sec := &lt;span style=&quot;color: #afbf7e&quot;&gt;crypto&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;CreateSecurityCode&lt;/span&gt;(mEmail&lt;span style=&quot;color: #6fafbd&quot;&gt;&lt;/span&gt;)&lt;br&gt;      prefix := []&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(sec) &lt;span style=&quot;color: #787878&quot;&gt;// finds the key with this prefix&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      // Range bucket for key&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;for &lt;/span&gt;k&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;_ := c.&lt;span style=&quot;color: #b09d79&quot;&gt;Seek&lt;/span&gt;(prefix)&lt;span style=&quot;color: #cc7832&quot;&gt;; &lt;/span&gt;k != &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;&lt;br&gt;                     &amp;amp;&amp;amp; &lt;span style=&quot;color: #afbf7e&quot;&gt;bytes&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;HasPrefix&lt;/span&gt;(k&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;prefix)&lt;span style=&quot;color: #cc7832&quot;&gt;; &lt;/span&gt;k&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;_ = c.&lt;span style=&quot;color: #b09d79&quot;&gt;Next&lt;/span&gt;() {&lt;br&gt;         b.&lt;span style=&quot;color: #b09d79&quot;&gt;Delete&lt;/span&gt;(&lt;span style=&quot;color: #72737a&quot;&gt;[]byte&lt;/span&gt;(prefix))&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return nil&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;      &lt;/span&gt;}&lt;br&gt;&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;errors&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;New&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Member no found:&quot; &lt;/span&gt;+ mEmail&lt;span style=&quot;color: #6fafbd&quot;&gt;&lt;/span&gt;)&lt;br&gt;   })&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#330000;" parent="1" vertex="1">
           <mxGeometry x="120" y="800" width="510" height="480" as="geometry" />
         </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;func &lt;/span&gt;&lt;span style=&quot;color: #e6b163&quot;&gt;CreateMemberDb&lt;/span&gt;() {&lt;br&gt;   &lt;span style=&quot;color: #787878&quot;&gt;//create bucket&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;security&lt;/span&gt;.MemDb.&lt;span style=&quot;color: #b09d79&quot;&gt;Update&lt;/span&gt;(&lt;span style=&quot;color: #c7773e&quot;&gt;func&lt;/span&gt;(tx *&lt;span style=&quot;color: #afbf7e&quot;&gt;bolt&lt;/span&gt;.&lt;span style=&quot;color: #6fafbd&quot;&gt;Tx&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;      _&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;err := tx.&lt;span style=&quot;color: #b09d79&quot;&gt;CreateBucketIfNotExists&lt;/span&gt;([]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;members&quot;&lt;/span&gt;))&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;err != &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;err&lt;br&gt;      }&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;return nil&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;})&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" parent="1" vertex="1">
           <mxGeometry x="120" y="1953" width="510" height="297" as="geometry" />
         </mxCell>
@@ -62,7 +67,7 @@
           <mxGeometry x="1490" y="289" width="170" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-33" value="MEMBER DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;strokeColor=#FFFFFF;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="954" width="530" height="656" as="geometry" />
+          <mxGeometry x="2460" y="954" width="530" height="1386" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-35" target="eRZaWDwXWMxtU1EoFf1U-10">
           <mxGeometry relative="1" as="geometry" />
@@ -302,6 +307,46 @@
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-24" value="&lt;div&gt;POLL MEMBERS BY EMAIL&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByEmail ( email string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their email address&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
           <mxGeometry x="4900" y="215" width="510" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-73" value="Check if the storage bucket has been created yet for Members and if none exist then make one" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2020" width="225" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1342.1176470588234" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2069.6470588235297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-76" value="Create the Bucket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003300;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2030" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="2172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-77" value="Bucket name is empty or too long" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="2145" width="225" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-78" value="Return error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#330000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2145" width="225" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2420" y="2069.6470588235297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRZaWDwXWMxtU1EoFf1U-81" value="Return an error of nil" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003300;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="2030" width="225" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
