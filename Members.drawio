@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-05T19:48:21.845Z" agent="5.0 (Windows)" etag="988RPe8Wug8Jsq5Dj5ED" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T19:49:07.355Z" agent="5.0 (Windows)" etag="NBCgwDigTn79E74upXVb" version="12.9.6" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
-    <mxGraphModel dx="2872" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4288" dy="3358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
           <mxGeometry x="1490" y="289" width="170" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-33" value="MEMBER DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;strokeColor=#FFFFFF;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="954" width="530" height="1386" as="geometry" />
+          <mxGeometry x="2460" y="954" width="560" height="1386" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="Krg5OAJmCBE884iFsZVr-35" target="eRZaWDwXWMxtU1EoFf1U-10">
           <mxGeometry relative="1" as="geometry" />
@@ -300,13 +300,13 @@
           <mxGeometry x="3050" y="23" width="2400" height="2330" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-22" value="&lt;div&gt;POLL ALL MEMBERS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembers ( ) (error) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves all members from the members database&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="4900" y="335" width="510" height="100" as="geometry" />
+          <mxGeometry x="3070" y="350" width="510" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-23" value="&lt;div&gt;POLL MEMBERS BY ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByID ( id string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their Member ID generated using their email address with crypto.GetUserSecurityCode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="4900" y="65" width="510" height="115" as="geometry" />
+          <mxGeometry x="3070" y="80" width="510" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-24" value="&lt;div&gt;POLL MEMBERS BY EMAIL&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByEmail ( email string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their email address&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="4900" y="215" width="510" height="88" as="geometry" />
+          <mxGeometry x="3070" y="230" width="510" height="88" as="geometry" />
         </mxCell>
         <mxCell id="eRZaWDwXWMxtU1EoFf1U-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="eRZaWDwXWMxtU1EoFf1U-73">
           <mxGeometry relative="1" as="geometry">
