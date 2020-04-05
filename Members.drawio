@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T17:36:39.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="WnZ7SdzdDl-iCIAvJadj" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T01:48:59.976Z" agent="5.0 (Windows)" etag="wWTnzblrz3cT_uS0x9YM" version="12.9.6" type="github">
   <diagram id="ODxXchdAwgTXNLU9TBr1" name="Page-1">
-    <mxGraphModel dx="1201" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2732" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Krg5OAJmCBE884iFsZVr-60" value="SERVER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;fillColor=#1A1A1A;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="1830" height="1670" as="geometry" />
+          <mxGeometry x="40" y="20" width="1830" height="2150" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#663300;align=left;" parent="1" vertex="1">
           <mxGeometry x="870" y="411" width="370" height="110" as="geometry" />
@@ -42,7 +42,7 @@
           <mxGeometry x="1275" y="155" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-19" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Member Database/Bolt Buckets METHODS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="200" y="100" width="450" height="1570" as="geometry" />
+          <mxGeometry x="100" y="100" width="550" height="2000" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#0FCF1E;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-8" target="Krg5OAJmCBE884iFsZVr-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -52,60 +52,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;ADD MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func AddMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--adds a member into the member database bolt bucket generated using their email address with crypto.GetUserSecurityCode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" parent="1" vertex="1">
-          <mxGeometry x="210" y="150" width="430" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-21" target="Krg5OAJmCBE884iFsZVr-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Krg5OAJmCBE884iFsZVr-8" value="&lt;div&gt;ADD MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func AddMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--adds a member into the member database bolt bucket generated using their email address with crypto.GetUserSecurityCode&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;func &lt;/span&gt;&lt;span style=&quot;color: #e6b163&quot;&gt;AddMember&lt;/span&gt;(mem &lt;span style=&quot;color: #6fafbd&quot;&gt;Member&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;   sec := &lt;span style=&quot;color: #afbf7e&quot;&gt;crypto&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;CreateSecurityCode&lt;/span&gt;(mem.Email&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;[]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(mem.PwKey))&lt;br&gt;&lt;br&gt;   &lt;span style=&quot;color: #787878&quot;&gt;// Check if member exists&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;_&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;bo := &lt;span style=&quot;color: #b09d79&quot;&gt;PollMemberId&lt;/span&gt;(sec)&lt;br&gt;   &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;bo {&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;errors&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;New&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Member exists&quot;&lt;/span&gt;)&lt;br&gt;   }&lt;br&gt;&lt;br&gt;   &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;security&lt;/span&gt;.MemDb.&lt;span style=&quot;color: #b09d79&quot;&gt;Update&lt;/span&gt;(&lt;span style=&quot;color: #c7773e&quot;&gt;func&lt;/span&gt;(tx *&lt;span style=&quot;color: #afbf7e&quot;&gt;bolt&lt;/span&gt;.&lt;span style=&quot;color: #6fafbd&quot;&gt;Tx&lt;/span&gt;) &lt;span style=&quot;color: #c7773e&quot;&gt;error &lt;/span&gt;{&lt;br&gt;      &lt;span style=&quot;color: #787878&quot;&gt;// Check if the bucket exists&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;b := tx.&lt;span style=&quot;color: #b09d79&quot;&gt;Bucket&lt;/span&gt;([]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;members&quot;&lt;/span&gt;))&lt;br&gt;      &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;b == &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #afbf7e&quot;&gt;errors&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;New&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Bucket not found: Members&quot;&lt;/span&gt;)&lt;br&gt;      }&lt;br&gt;      &lt;span style=&quot;color: #787878&quot;&gt;// Marshal the user into a []byte&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;buff&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;err := &lt;span style=&quot;color: #afbf7e&quot;&gt;json&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;Marshal&lt;/span&gt;(mem)&lt;span style=&quot;color: #cc7832&quot;&gt;; &lt;/span&gt;err != &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;err&lt;br&gt;      } &lt;span style=&quot;color: #c7773e&quot;&gt;else &lt;/span&gt;{&lt;br&gt;         err1 := b.&lt;span style=&quot;color: #b09d79&quot;&gt;Put&lt;/span&gt;([]&lt;span style=&quot;color: #c7773e&quot;&gt;byte&lt;/span&gt;(sec)&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;buff)&lt;br&gt;         &lt;span style=&quot;color: #c7773e&quot;&gt;if &lt;/span&gt;err1 != &lt;span style=&quot;color: #c7773e&quot;&gt;nil &lt;/span&gt;{&lt;br&gt;            &lt;span style=&quot;color: #c7773e&quot;&gt;return &lt;/span&gt;err1&lt;br&gt;         } &lt;span style=&quot;color: #c7773e&quot;&gt;else &lt;/span&gt;{&lt;br&gt;            &lt;span style=&quot;color: #afbf7e&quot;&gt;fmt&lt;/span&gt;.&lt;span style=&quot;color: #b09d79&quot;&gt;Printf&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;Added: sec: &lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;%s\n&lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;sec)&lt;br&gt;            &lt;span style=&quot;color: #c7773e&quot;&gt;return nil&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;         &lt;/span&gt;}&lt;br&gt;      }&lt;br&gt;   })&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="510" height="630" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-21" value="&lt;div&gt;REMOVE MEMBER&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func RemoveMember (member Member) (error){}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Removes a member into the member database bolt bucket&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="210" y="284" width="430" height="96" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#D46A00;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-22" target="Krg5OAJmCBE884iFsZVr-33" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="805" y="645" />
-              <mxPoint x="805" y="650" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="120" y="800" width="510" height="96" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-22" value="&lt;div&gt;POLL ALL MEMBERS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembers ( ) (error) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves all members from the members database&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="210" y="640" width="430" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#D46A00;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-23" target="Krg5OAJmCBE884iFsZVr-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="790" y="409" />
-              <mxPoint x="790" y="208" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="120" y="1200" width="510" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-23" value="&lt;div&gt;POLL MEMBERS BY ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByID ( id string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their Member ID generated using their email address with crypto.GetUserSecurityCode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="210" y="400" width="430" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#D46A00;strokeWidth=5;" parent="1" source="Krg5OAJmCBE884iFsZVr-24" target="Krg5OAJmCBE884iFsZVr-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="560" />
-              <mxPoint x="830" y="560" />
-              <mxPoint x="830" y="270" />
-              <mxPoint x="953" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="120" y="930" width="510" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-24" value="&lt;div&gt;POLL MEMBERS BY EMAIL&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func PollMembersByEmail ( email string ) ( Member, error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Retrieves member from the members database by their email address&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#663300;" parent="1" vertex="1">
-          <mxGeometry x="210" y="536" width="430" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#66FF66;strokeWidth=6;" parent="1" source="Krg5OAJmCBE884iFsZVr-25" target="Krg5OAJmCBE884iFsZVr-33" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="870" y="780" />
-              <mxPoint x="870" y="673" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="120" y="1080" width="510" height="88" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-25" value="&lt;div&gt;CREATE MEMBER DATABASE DURING INITIALIZATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func CreateMemberDB (&amp;nbsp; ) ( error ) { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Check if a bucket exists.&amp;nbsp; If not, then creates a bucket to use for members.&amp;nbsp; With this system there is usually a bucket found after the first save.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#336600;" parent="1" vertex="1">
-          <mxGeometry x="210" y="750" width="430" height="119" as="geometry" />
+          <mxGeometry x="120" y="1330" width="510" height="119" as="geometry" />
         </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#F2F24E;" parent="1" source="Krg5OAJmCBE884iFsZVr-26" target="Krg5OAJmCBE884iFsZVr-14" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -125,21 +88,6 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-29" value="If the user exists return the error &quot;Member exists&quot; instead of adding the member" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#3B0808;" parent="1" vertex="1">
           <mxGeometry x="890" y="435" width="170" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#1290FF;strokeWidth=3;" parent="1" source="Krg5OAJmCBE884iFsZVr-33" target="Krg5OAJmCBE884iFsZVr-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#1290FF;strokeWidth=3;" parent="1" source="Krg5OAJmCBE884iFsZVr-33" target="Krg5OAJmCBE884iFsZVr-23" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1055" y="540" />
-              <mxPoint x="770" y="540" />
-              <mxPoint x="770" y="458" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Krg5OAJmCBE884iFsZVr-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#1290FF;strokeWidth=3;" parent="1" source="Krg5OAJmCBE884iFsZVr-33" target="Krg5OAJmCBE884iFsZVr-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Krg5OAJmCBE884iFsZVr-33" value="MEMBER DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;strokeColor=#FFFFFF;fillColor=#663300;" parent="1" vertex="1">
           <mxGeometry x="970" y="650" width="170" height="90" as="geometry" />
         </mxCell>
@@ -154,13 +102,13 @@
         <mxCell id="Krg5OAJmCBE884iFsZVr-44" value="Return the error and have the receiver handle it" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;fillColor=#3B0808;" parent="1" vertex="1">
           <mxGeometry x="890" y="330" width="170" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="cZtBj0m-440TL1Us-F3j-1" value="&lt;div&gt;RESET PASSWORD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func ResetUserPassword( memID, curPas, curPasKey, newPass ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--We need to verify if they clicked a link with a security code in their email to make sure its them.&amp;nbsp; In the future we want to do SMS messaging for verification.&amp;nbsp; Add a security token on the email that is attached to the users account to verify authenticity.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1110" width="430" height="205" as="geometry" />
+        <mxCell id="cZtBj0m-440TL1Us-F3j-1" value="&lt;div&gt;RESET PASSWORD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func ResetUserPassword( memID, curPas, curPasKey, newPass ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--We need to verify if they clicked a link with a security code in their email to make sure its them.&amp;nbsp; In the future we want to do SMS messaging for verification.&amp;nbsp; Add a security token on the email that is attached to the users account to verify authenticity.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1720" width="510" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="cZtBj0m-440TL1Us-F3j-2" value="&lt;div&gt;SETUP TWO FACTOR VERIFICATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func SetupTFV( memID, email, phone, googleVer ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Setup two factor verification on the methods included in the function input to secure accounts further for the user.&amp;nbsp; Enable support for phone numbers, emails and google verification.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="210" y="890" width="430" height="205" as="geometry" />
+        <mxCell id="cZtBj0m-440TL1Us-F3j-2" value="&lt;div&gt;SETUP TWO FACTOR VERIFICATION&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;func SetupTFV( memID, email, phone, googleVer ) error { }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--Setup two factor verification on the methods included in the function input to secure accounts further for the user.&amp;nbsp; Enable support for phone numbers, emails and google verification.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#39470B;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1480" width="510" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="cZtBj0m-440TL1Us-F3j-3" value="&lt;div&gt;MEMBER STRUCT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;type &lt;/span&gt;Member &lt;span style=&quot;color: #c7773e&quot;&gt;struct &lt;/span&gt;{&lt;br&gt;   Email         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;UserName      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Password      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;PwKey         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Role          &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Activation    &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;JoinDate      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVPhone      &lt;span style=&quot;color: #c7773e&quot;&gt;int&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVGoogle     &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVDevices    []&lt;span style=&quot;color: #c7773e&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;// 0 - Phone; 1 - Email; 2 - Google Verification&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;SecurityToken &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
+        <mxCell id="cZtBj0m-440TL1Us-F3j-3" value="&lt;div&gt;MEMBER STRUCT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;type &lt;/span&gt;Member &lt;span style=&quot;color: #c7773e&quot;&gt;struct &lt;/span&gt;{&lt;br&gt;   Email         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;UserName      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Password      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;PwKey         &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Role          &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;Activation    &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;JoinDate      &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVPhone      &lt;span style=&quot;color: #c7773e&quot;&gt;int&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVGoogle     &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #c7773e&quot;&gt;   &lt;/span&gt;TFVDevices    []&lt;span style=&quot;color: #c7773e&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;// 0 - Phone; 1 - Email; 2 - Google Verification&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #787878&quot;&gt;   &lt;/span&gt;SecurityToken &lt;span style=&quot;color: #c7773e&quot;&gt;string&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" parent="1" vertex="1">
           <mxGeometry x="1310" y="589" width="530" height="280" as="geometry" />
         </mxCell>
       </root>
