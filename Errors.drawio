@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-05T19:17:28.477Z" agent="5.0 (Windows)" etag="7pQbnju8hD52q7eu7VF9" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-05T19:53:42.054Z" agent="5.0 (Windows)" etag="VWN3pwXs75sOi2QHgavB" version="12.9.6" type="github">
   <diagram id="AgFZ_wXdq1zzKfNrYFCv" name="Page-1">
-    <mxGraphModel dx="1719" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,10 @@
           <mxGeometry x="100" y="890" width="510" height="360" as="geometry" />
         </mxCell>
         <mxCell id="6hKQdgpvXm7_suPGL8Qp-6" value="Perhaps every function should return an &#39;error&#39; type and use nil or !nil conditions to determine the success.&amp;nbsp; That way we can use these functions as methods for a type rather than floating functions." style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=left;spacingLeft=8;fillColor=#032A06;" vertex="1" parent="1">
-          <mxGeometry x="930" y="30" width="510" height="240" as="geometry" />
+          <mxGeometry x="1050" y="-300" width="510" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6hKQdgpvXm7_suPGL8Qp-7" value="LOGS DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FAFAFA;align=center;spacingLeft=8;fillColor=#032A06;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="410" width="510" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
